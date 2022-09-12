@@ -110,7 +110,8 @@ html{
     font-family: 'Bree Serif',serif;
 }
 #client-section{
-  position: relative; 
+  position: relative;
+  height: 300px;
 }
 #client-section::before{
     content:"" ;
@@ -125,12 +126,11 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 39px;
 }
 .client-item{
     height: 129px;
     width: 128px;
-    margin: 0 48px;
+    margin: 0px 65px;
 }
 #clients img{
     height: 95px;
@@ -197,4 +197,26 @@ footer{
 }
 .center{
     text-align: center;
+}
+@media only screen and (max-width:500px){
+    #client-section{
+        height: 600px;
+    }
+    .img1{
+      margin-bottom: -45px;
+    }
+    .img2{
+      margin-bottom: 37px;
+    }
+    #clients img{
+        height:50px;
+    }
+    #contact{
+        margin-top: -150px;
+    }
+}
+@media only screen and (max-width:800px){
+    #clients img{
+        height:50px;
+    }
 }
