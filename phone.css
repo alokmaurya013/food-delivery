@@ -2,8 +2,9 @@
   flex-direction: column;
 
 }
-body{
+html,body{
    overflow-x: hidden;
+   width: 100%;
 }
 #navbar ul li a{
    font-size: 1rem;

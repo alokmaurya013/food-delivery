@@ -9,6 +9,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 :root{
     --navbar-height:5px;
@@ -199,6 +200,10 @@ footer{
     text-align: center;
 }
 @media only screen and (max-width:500px){
+    body,html{
+        overflow-x: hidden;
+        width: 100%;
+    }
     #client-section{
         height: 600px;
     }
